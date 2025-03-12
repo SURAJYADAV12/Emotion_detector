@@ -80,7 +80,7 @@ print(f"Loaded Model Prediction: {inverse_label_mapping[predicted_emotion]}")
 import joblib
 
 # Load the trained model
-classifier = joblib.load("emotion_detector.pkl")
+classifier = joblib.load("text_emotion.pkl")
 
 # Define a mapping of numbers to emotions (adjust based on your dataset)
 emotion_labels = {
